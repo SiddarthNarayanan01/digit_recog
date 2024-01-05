@@ -5,7 +5,7 @@ This project contains the code used for training and inference of the model. It 
 I used Pygame to display a canvas where the user could draw a digit, and the model would try to predict the digit. Given the intended digit, the model will then train
 on the drawn image if it is mispredicted.
 
-This is all run in a recurring loop, which effectively means that this is a self-learning model that constantly fits on new digit images.
+This is all run in a recurring loop, which effectively means that this is a continuous-learning model that constantly fits on new digit images.
 
 ## Technical Considerations
 
